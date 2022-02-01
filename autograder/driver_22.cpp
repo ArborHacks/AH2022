@@ -1,7 +1,7 @@
 #include <iostream>
 #include <list>
 #include <fstream>
-#include "contest_19.h"
+#include "contest_22.h"
 #include <sstream>
 
 using namespace std;
@@ -34,4 +34,44 @@ static pair<uint32_t, uint32_t> testVectors() {
 
   points.second = 12;
   cout << "Testing Vectors: " << points.first << "/" << points.second << endl;
+}
+
+
+/* Example function prototypes */
+  //change names to new question type
+static pair<uint32_t, uint32_t> testIsBezos();
+
+//Example of how to set up test:
+//1. set up points pair (what gets returned)
+//2. set up the vectors for input (test) and expected output (keys)
+//3. try statement that iterates over the vectors and gives 1 point for every passed test case
+//4. return pair of points (points earned, points available)
+static pair<uint32_t, uint32_t> testIsBezos() {
+  pair<uint32_t, uint32_t> points;
+
+  vector<string> tests = {"Beff Bezos",
+"Zuckerberg",
+"Jeff Jezos",
+"Beff Jezos",
+"Bezz Jefos",
+"Jeff Bezos"};
+  vector<string> keys = {"Not Jeff",
+"Not Jeff",
+"Not Jeff",
+"Beff Jezos",
+"Bezz Jefos",
+"Found Him!"};
+  
+  try {
+    for (int i = 0; i < 12; i++){
+      if (vectors(tests[i]) == keys[i]){
+        points.first++;
+      }
+    }
+  } catch(...) {
+    points.first = 0;
+  }
+
+  points.second = 6;
+  cout << "Testing IsBezos: " << points.first << "/" << points.second << endl;
 }
