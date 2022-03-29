@@ -25,7 +25,8 @@ vector<int> newRocketPrices(vector<int> prices, int newPrice){
 // Question 3
 // REQUIRES: Input is formatted with 16 cities, each with a string of the city followed by a char of its building type (h, w, d, r)
 // EFFECTS: Output modeled after spec: <Building Type>: followed by a ranking of the 4 cities that correspond to that building type. The order of building are Headquarters, Warehouse, Data Center, then Research Center
-void outputCities(){
+//Scotty->todo
+ostream& outputCities(istream& in, ostream& out){
   throw 0;
 }
 
@@ -41,8 +42,8 @@ void isAlien(vector<vector<int>> temperatures, bool &hasFever, bool &isMinion){
 
 //Question 5
 // REQUIRES: stocks vector is at least size 1
-// EFFECTS: returns a new vector that is comprised of the longest, continuous, decreasing subsequence of stocks vector
-vector<int> worstStocks(vector<int> stocks){
+// EFFECTS: returns the length of the longest, continuous, and decreasing subsequence of stocks vector
+int worstStocks(vector<int> stocks){
   throw 0;
 }
 
