@@ -1,0 +1,16 @@
+Ann Arbor h
+Seattle w
+New York d
+San Fransisco r
+Austin h
+Wilmington w
+Philadelphia d
+Los Angelos r
+Chicago h
+Charlotte w
+Denver d
+Detroit r
+Boston h
+Cleveland w
+Portland d
+Houston r

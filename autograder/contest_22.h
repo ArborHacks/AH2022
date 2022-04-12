@@ -19,7 +19,7 @@ vector<int> newRocketPrices(std::vector<int> prices, int newPrice);
 // Question 3
 // REQUIRES: Input is formatted with 16 cities, each with a string of the city followed by a char of its building type (h, w, d, r)
 // EFFECTS: Output modeled after spec: <Building Type>: followed by a ranking of the 4 cities that correspond to that building type. The order of building are Headquarters, Warehouse, Data Center, then Research Center
-void outputCities(istream& in, ostream& out);
+void outputCities();
 
 // Question 4
 // REQUIRES: temperatures 2D vector is not empty
@@ -42,7 +42,7 @@ struct Package{
   int length;
   int width;
   int height;
-}
+};
 
 // REQUIRES: all packages have lenght, width, height > 0
 // MODIFIES: vector<Package> packages

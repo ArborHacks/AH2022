@@ -1,0 +1,23 @@
+Headquarters:
+1. Los Angelos
+2. Charlotte
+3. Boston
+4. Portland
+
+Warehouse:
+1. New York
+2. Chicago
+3. Cleveland
+4. San Fransisco
+
+Data Center:
+1. Detroit
+2. Austin
+3. Seattle
+4. Houston
+
+Research Center:
+1. Wilmington
+2. Philadelphia
+3. Ann Arbor
+4. Denver
